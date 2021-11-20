@@ -1,3 +1,7 @@
+body {
+    max-width: 2000px;
+    min-height: 100%;
+}
 h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 7px;
@@ -14,6 +18,13 @@ h2 {
     font-size: 22px;
     font-weight: normal;
     margin: 12px;}
+
+h3 {
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: white;
+}
 p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;

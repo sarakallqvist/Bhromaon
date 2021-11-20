@@ -58,7 +58,7 @@ header {
     grid-column: 1/13;
     grid-row: 12/13;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .logo {
@@ -75,7 +75,7 @@ header {
     font-size: 14px;
     line-height: 26px;
     color: white;
-    margin: 32px;
+    margin: 20px;
 }
 .topnav a:hover {
     color: #ABA9BC;
