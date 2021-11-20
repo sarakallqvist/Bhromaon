@@ -6,7 +6,7 @@ h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 7px;
     line-height: 26px;
-    color: white;
+    color: #e8e8e8;
     text-align: center;
     }
 h1 {
@@ -23,7 +23,16 @@ h3 {
     font-family: 'Aleo', serif;
     font-size: 36px;
     font-weight: normal;
-    color: white;
+    color: #e8e8e8;
+}
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+    margin-top: 23px;
+
 }
 p {
     font-family: 'Josefin Sans', sans-serif;
@@ -31,7 +40,7 @@ p {
     font-weight: normal;
     line-height: 26px;
     letter-spacing: 1.5px;
-    color: white;
+    color: #e8e8e8;
     }
 
     .button {
@@ -42,16 +51,35 @@ p {
         font-weight: normal;
         letter-spacing: 1.5px;
         min-width: 90px;
-        min-height:10px;
+        min-height:30px;
         border: none;
         white-space: nowrap;
-        padding: 10px;
+        padding: 20px;
         }
         .button:hover {
-            color: #ABA9BC;
-            box-shadow: 0 2px #999;
+            background-color: #4261E7;
+            box-shadow: 0 2px #304085;
         }
         .button:active {
-            background-color: #265ADE;
-            box-shadow: 0 2px #666;
+            background-color: #304085;
+            box-shadow: 0 2px #1E2649;
+            transform: translateY(2px);}
+    .button-two {
+        background-image: linear-gradient(60deg,#4261E7,#5474FD);
+        font-family: 'Aleo', serif;
+        font-size: 14px;
+        color: white;
+        font-weight: normal;
+        letter-spacing: 1.5px;
+        min-width: 90px;
+        min-height:30px;
+        border: none;
+        white-space: nowrap;
+        padding: 20px;
+    }
+        .button-two:hover {
+        background-image: linear-gradient(60deg,#304085, #5070F8);
+        }
+        .button-two:active {
+            box-shadow: 0 3px #1E2649;
             transform: translateY(2px);}
