@@ -14,26 +14,34 @@ header {
     grid-column: 5/9;
     text-align: center;
 }
-.searchbar {
-    background-color: white;
-    padding: 2px;
+form {
     grid-column: 5/9;
     grid-row: 8/9;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+}
+.form-element {
+    display: table-cell;
+    box-sizing: border-box;
+}
+.textfield {
+    width:100%;
 }
 
-.input-field {
-    border: 0;
+.textfield > input {
+    width:100%;
     outline: 0;
+    border: 0;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
     letter-spacing: 3px;
     text-align: center;
     color: #999999;
-    width: 300px;
-
+}
+form {
+    background: white;
+    padding:2px;
+}
+input {
+    padding:2px;
 }
 
 .scroll {
@@ -47,7 +55,7 @@ header {
     color: white;
 }
 .scroll a:hover {
-    color: #ABA9BC;
+    color: red;
     font-size: larger;
     }
 .topnav {

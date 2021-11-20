@@ -845,36 +845,43 @@ header > *:nth-child(144) {
   text-align: center;
 }
 
-.searchbar {
-  background-color: white;
-  padding: 2px;
+form {
   -ms-grid-column: 5;
   -ms-grid-column-span: 4;
   grid-column: 5/9;
   -ms-grid-row: 8;
   -ms-grid-row-span: 1;
   grid-row: 8/9;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-.input-field {
-  border: 0;
+.form-element {
+  display: table-cell;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.textfield {
+  width: 100%;
+}
+
+.textfield > input {
+  width: 100%;
   outline: 0;
+  border: 0;
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   letter-spacing: 3px;
   text-align: center;
   color: #999999;
-  width: 300px;
+}
+
+form {
+  background: white;
+  padding: 2px;
+}
+
+input {
+  padding: 2px;
 }
 
 .scroll {
@@ -894,7 +901,7 @@ header > *:nth-child(144) {
 }
 
 .scroll a:hover {
-  color: #ABA9BC;
+  color: red;
   font-size: larger;
 }
 
@@ -2306,9 +2313,9 @@ header > *:nth-child(144) {
 }
 
 .icons {
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 2;
-  grid-row: 4/6;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
   -ms-grid-column: 4;
   -ms-grid-column-span: 6;
   grid-column: 4/10;
