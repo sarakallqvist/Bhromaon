@@ -14,6 +14,43 @@
     <title>Welcome To Bhromaon</title>
 </head>
 <body>
+    <header>
+        <div class="headline">
+            <h1>BHROMAON</h1>
+            <h2>Safe Travel Anywhere </h2>
+        </div>
+        <div class="searchbar">
+
+            <input type="text" name="search" id="search" class="input-field" placeholder="Search Your Travel Destination"
+            required="" autofocus="">
+
+            <button type="submit" class="button search">SEARCH <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <div class="scroll">
+            <a href="#footer" class="scroll-down">
+                <p> Scroll Down <br> <i class="fas fa-chevron-down"></i> </p>
+            </a>
+        </div>
+        <div class="topnav">
+            <a href="#home" class="logo">
+                <img src="images/Logo.svg" alt="BHROMAON-logo" class="logo"> </a>
+            <a href="a.html">WHO WE ARE</a>
+            <a href="b.html">WHAT WE DO</a>
+            <a href="c.html">TRAVEL WITH US</a>
+            <a href="d.html">CONTACT</a>
+            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                <i class="fa fa-bars"></i> </a>
+        </div>
+    </header>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {x.className = "topnav";}
+        }
+        </script>
 
 </body>
 </html>

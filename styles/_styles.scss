@@ -1,0 +1,45 @@
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 7px;
+    line-height: 26px;
+    color: white;
+    text-align: center;
+    }
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 12px;
+}
+h2 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 12px;}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    }
+
+    .button {
+        background-color: #5474FD;
+        font-family: 'Aleo', serif;
+        font-size: 14px;
+        color: white;
+        font-weight: normal;
+        letter-spacing: 1.5px;
+        min-width: 90px;
+        min-height:10px;
+        border: none;
+        white-space: nowrap;
+        padding: 10px;
+        }
+        .button:hover {
+            color: #ABA9BC;
+            box-shadow: 0 2px #999;
+        }
+        .button:active {
+            background-color: #265ADE;
+            box-shadow: 0 2px #666;
+            transform: translateY(2px);}
